@@ -12,6 +12,11 @@ assert.deepEqual(StringProblem.repeatStr(2,'abc'),'abcabc');
 
 assert.deepEqual(StringProblem.longest('defff','aaabc'),'abcdef');
 
+/*----------  Case Swap  ----------*/
+
+assert.deepEqual(StringProblem.swap('hELlo'),'HelLO');
+
+
 
 
 /*=================================================

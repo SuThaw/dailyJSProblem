@@ -32,11 +32,29 @@ const repeatStr = (n,s) => s.repeat(n);
 
 const longest = (s1, s2 ) => `${s1}${s2}`.replace(/(.)(?=.*\1)/g, "").split("").sort().join("");
 
-
-module.exports = {repeatStr, longest};
-
-
 /*=====  End of delete repeat character and create new string  ======*/
+
+
+
+/*=================================
+=            Case Swap            =
+=================================*/
+/*
+Given a string, swap the case for each of the letters.
+
+e.g. HelloWorld --> hELLOwORLD
+*/
+
+const swap = (str) => str.split("").map(c => /[A-Z]/.test(c) ? c.toLowerCase() : c.toUpperCase()).join("");
+
+
+/*=====  End of Case Swap  ======*/
+
+module.exports = {
+    repeatStr, 
+    longest, 
+    swap,
+};
 
 
 

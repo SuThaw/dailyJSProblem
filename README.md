@@ -3,6 +3,7 @@
 ## String Problem
     - Repeat String
     - Join and filter repeated character
+    - Case Swap
 
 
 ## Array Problem
